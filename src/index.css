@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Change arrow color */
+.slick-prev:before,
+.slick-next:before {
+  color: gray !important; /* change this to your color */
+  font-size: 25px !important; /* make it bigger if you want */
+}
