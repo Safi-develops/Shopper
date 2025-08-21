@@ -3,7 +3,7 @@ function Shop() {
     <>
       <section className="grid grid-cols-1 md:grid-cols-2 gap-7 p-4  mt-12 mb-12 container mx-auto px-5 lg:px-20 ">
         <div
-          className="border bg-[url('public/sofa.jpg')] bg-no-repeat bg-cover bg-center
+          className="border bg-[url('./public/sofa.jpg')] bg-no-repeat bg-cover bg-center
            flex flex-col justify-start items-start p-8 h-[280px] lg:h-[500px]  "
         >
           <h3 className="text-gray-500 pb-2 font-semibold">#HOUSE</h3>
