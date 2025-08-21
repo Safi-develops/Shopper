@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <section className="bg-[url(src/assets/hero-bg.svg)] flex flex-col md:flex-row items-center justify-between p-6 container mx-auto px-5 lg:px-20">
+      <section className="bg-[url('public/hero-bg.svg')] flex flex-col md:flex-row items-center justify-between p-6 container mx-auto px-5 lg:px-20">
         {/* INFO text  */}
         <div className="mt-9 p-4 font-monospace mb-9">
           <h3 className="text-blue-600 font-semibold text-xl pb-2">

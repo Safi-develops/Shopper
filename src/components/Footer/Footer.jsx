@@ -4,7 +4,7 @@ import { GoDash } from "react-icons/go";
 function Footer() {
   return (
     <div>
-      <footer className="bg-[url('src/assets/bg.jpg')] bg-no-repeat bg-cover bg-center py-20">
+      <footer className="bg-[url('public/bg.jpg')] bg-no-repeat bg-cover bg-center py-20">
         <div className="container mx-auto px-5 lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
           <div className="mb-10">
             <img src="src/assets/logo-white.svg" alt="" />
