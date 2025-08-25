@@ -1,10 +1,10 @@
 import { CiLocationOn } from "react-icons/ci";
-import { GoDash } from "react-icons/go"; 
+import { GoDash } from "react-icons/go";
 
 function Footer() {
   return (
     <div>
-      <footer className="bg-[url('/public/bg.jpg')] bg-no-repeat bg-cover bg-center py-20">
+      <footer className="bg-[url('/bg.jpg')] bg-no-repeat bg-cover bg-center py-20">
         <div className="container mx-auto px-5 lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
           <div className="mb-10">
             <img src="src/assets/logo-white.svg" alt="" />
@@ -77,7 +77,9 @@ function Footer() {
                 type="email"
                 placeholder="Email address"
               />
-              <button className="relative left-[12rem] top-2 bg-blue-600 py-1 px-2 text-sm">Subscraibe</button>
+              <button className="relative left-[12rem] top-2 bg-blue-600 py-1 px-2 text-sm">
+                Subscraibe
+              </button>
             </div>
           </div>
         </div>

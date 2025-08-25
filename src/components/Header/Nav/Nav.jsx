@@ -12,7 +12,7 @@ function Nav() {
 
   const catRef = useRef(null);
 
-  // Close on outside click or scroll
+
   useEffect(() => {
     function handleClickOutside(e) {
       if (catRef.current && !catRef.current.contains(e.target)) {
