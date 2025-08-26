@@ -29,11 +29,9 @@ function TrendingProducts() {
                 <p className="text-sm text-gray-500 flex">
                   {" "}
                   <span className="flex items-center gap-1">
-                    <FaStar className="text-yellow-400" />
-                    <FaStar className="text-yellow-400" />
-                    <FaStar className="text-yellow-400" />
-                    <FaStar className="text-yellow-400" />
-                    <FaStar className="text-yellow-400" />
+                    {[...Array(5)].map((_, i) => (
+                      <FaStar key={i} className="text-yellow-400" />
+                    ))}
                     <CiStar className="text-yellow-400 text-[1.1rem]" />
                   </span>
                   {data.Reviews}
